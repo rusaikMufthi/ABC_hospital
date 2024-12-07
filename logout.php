@@ -16,7 +16,7 @@ if ($role === 'Admin') {
 } elseif ($role === 'Receptionist') {
     header("Location: receptionist_login.php");
 } else {
-    header("Location: login.html"); // Default redirect
+    header("Location: login_form.php"); // Default redirect
 }
 exit();
 ?>
